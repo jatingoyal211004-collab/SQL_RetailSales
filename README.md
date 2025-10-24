@@ -1,19 +1,19 @@
-# SQL_RetailSales
 Retail Sales Analysis SQL Project
+
 Project Overview
-Project Title: Retail Sales Analysis
+Project Title:** Retail Sales Analysis**
 Level: Beginner
 Database: Sql_project_p1
 
 This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 
-Objectives
+**Objectives**
 Set up a retail sales database: Create and populate a retail sales database with the provided sales data.
 Data Cleaning: Identify and remove any records with missing or null values.
 Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
 Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
 
-Project Structure
+**Project Structure**
 1. Database Setup
 Database Creation: The project starts by creating a database named Sql_project_p1.
 Table Creation: A table named retail_sales_analysis is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
@@ -51,7 +51,7 @@ The following SQL queries were developed to answer specific business questions:
 10.Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17):
 <img width="972" height="281" alt="image" src="https://github.com/user-attachments/assets/76a9ee37-f867-480c-b9d9-3f7e26885769" />
 
-Findings
+**Findings**
 Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
 High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
 Sales Trends: Monthly analysis shows variations in sales, helping identify peak seasons.
