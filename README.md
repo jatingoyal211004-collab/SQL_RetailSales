@@ -12,11 +12,13 @@ Set up a retail sales database: Create and populate a retail sales database with
 Data Cleaning: Identify and remove any records with missing or null values.
 Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
 Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
+
 Project Structure
 1. Database Setup
 Database Creation: The project starts by creating a database named Sql_project_p1.
 Table Creation: A table named retail_sales_analysis is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
-<img width="1423" height="486" alt="image" src="https://github.com/user-attachments/assets/dcf0360b-b0a7-4a11-b6d7-3bb7921cc0a0" />
+<img width="972" height="380" alt="image" src="https://github.com/user-attachments/assets/b9a77b10-1773-49c9-ba44-185ebee75c06" />
+
 2. Data Exploration & Cleaning
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
@@ -24,6 +26,7 @@ Category Count: Identify all unique product categories in the dataset.
 Null Value Check: Check for any null values in the dataset and delete records with missing data.
 <img width="970" height="829" alt="image" src="https://github.com/user-attachments/assets/1b007cae-e750-4b37-97e1-183d07fc0878" />
 <img width="957" height="231" alt="image" src="https://github.com/user-attachments/assets/e665fcce-ca0e-4842-bda6-5b0f2af5cb40" />
+
 3. Data Analysis & Findings
 The following SQL queries were developed to answer specific business questions:
 
@@ -47,6 +50,7 @@ The following SQL queries were developed to answer specific business questions:
 <img width="974" height="90" alt="image" src="https://github.com/user-attachments/assets/30bc2a63-bf48-4441-84af-b86edccbeba0" />
 10.Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17):
 <img width="972" height="281" alt="image" src="https://github.com/user-attachments/assets/76a9ee37-f867-480c-b9d9-3f7e26885769" />
+
 Findings
 Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
 High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
